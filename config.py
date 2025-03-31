@@ -10,32 +10,32 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7834318381:AAGi_e0Cy8mOyQcFZxGBL04QSoOHoyNQy0E")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "16229284"))
+APP_ID = int(os.environ.get("APP_ID", "25599491"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "ebd1fead3cc15343bea10b5c164165ba")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121817863"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002183155239"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Thala_Dev")
+OWNER = os.environ.get("OWNER", "itzz_introvert")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1103137195"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5983189506"))
 #Port
 PORT = os.environ.get("PORT", "8080")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://devwilson:MDBots1976@mdbots.iaigyrl.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Anime-file")
+DB_URI = os.environ.get("DATABASE_URL", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "60"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002226806894"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002069904994"))
 #put 0 to disable
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002268015162"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002128652187"))#put 0 to disable
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -83,7 +83,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1103137195)
+ADMINS.append(5983189506)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
